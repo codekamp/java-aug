@@ -21,7 +21,7 @@ public class Demo {
     public static void main(String[] args) {
         System.out.println("Hello World!");
 
-        // Always use variables and functions (methods) with a dot.
+        // Always use global variables and functions (methods) with a dot.
         System.out.println(Demo.averageAge);
 //        System.out.println(Dog.averageAge); // private variables, so can't use here
         System.out.println(Cat.averageAge);
