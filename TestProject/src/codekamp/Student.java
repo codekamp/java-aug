@@ -9,6 +9,8 @@ public class Student {
     public int age;
     public float marks = 55;
 
+    public String[] emailAddrs;
+
 
 //    https://github.com/codekamp/java-aug
 
