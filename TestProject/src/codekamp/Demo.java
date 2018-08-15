@@ -106,8 +106,40 @@ public class Demo {
         System.out.println(s1.emailAddrs[0]);
         System.out.println(s2.emailAddrs[0]);
 
-//        abstraction
-//        encaptulation - everything has a place and everything at it's place
+//        abstraction - hiding unnecessary details.
+//        Decreased complexity for other devs using our class(es)
+//        Less likely to introduce bugs
 
+
+//        encaptulation - everything has a place and everything at it's place
+//        Decrease code repetion
+//        makes it easy to reach the needed functions/variables.
+
+//        DRY - Don't Repeat Yourself
+
+//        Inheritance - Allows us to follow encaptulation and DRY at the same time.
+
+
+        Student amit = new Student();
+
+        amit.hindiMarks = 45;
+        amit.mathsMarks = 40;
+        amit.engMarks = 55;
+
+        Student sumit = new Student();
+        sumit.hindiMarks = 90;
+        sumit.mathsMarks = 90;
+        sumit.engMarks = 90;
+
+        boolean result = amit.hasPassed();
+        boolean result1 = amit.hasPassed();
+        boolean result2 = sumit.hasPassed();
+
+        System.out.println(result);
+        System.out.println(result1);
+        System.out.println(result2);
+
+        System.out.println(amit.hasScoredMoreThan(sumit));
+        System.out.println(sumit.hasScoredMoreThan(amit));
     }
 }

@@ -9,4 +9,8 @@ public class Cat {
     public static void talk() {
         System.out.println("Meow Meow!");
     }
+
+    public void xyz(int a) {
+        // 'this' Cat
+    }
 }

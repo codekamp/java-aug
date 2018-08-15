@@ -16,4 +16,8 @@ public class Dog {
         System.out.println(Dog.averageAge);
         System.out.println("Wuff Wuff!");
     }
+
+    public void pqr(String a) {
+        // Dataype of 'this' is Dog
+    }
 }
