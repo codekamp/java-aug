@@ -6,6 +6,11 @@ package codekamp;
 public class Cat extends Animal {
 
     public void climbTheTree() {
+
         System.out.println("Cat is climbing the tree");
+    }
+
+    public void doFavouriteThing() {
+        System.out.println("Chase the rat");
     }
 }
