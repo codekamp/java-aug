@@ -7,7 +7,13 @@ import java.util.Random;
  */
 public class Demo {
 
-    public static Animal animal1;
+    // Approach #1
+//    public static Dog screenDog;
+//    public static Cat screenCat;
+//    public static int rNum;
+
+    // Approach #2
+    public static Animal screenAnimal;
 
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -17,7 +23,7 @@ public class Demo {
         Cat c1 = new Cat();
 
 // d1.moveLeft() means we are trying to call public, non static method
-// ... of Dog class name moveLeft.
+// ... of Dog class named moveLeft.
 // ... so method will be first searched in Dog class and if not found there
 // ... then in parent class (Animal).
         d1.moveLeft();
@@ -31,8 +37,10 @@ public class Demo {
         d1.moveLeft();
 
 // In a variable of class XYZ you can store objects of XYZ and it's subclasses
+// But we can't store objects of XYZ's parent in it.
 
 // Method/Variable search starts from class/datatype of variable at compile time.
+
 // But at runtime method/variable search starts from class/datatype of Object.
 
 
@@ -43,20 +51,11 @@ public class Demo {
 
         int rNum = r.nextInt(2); // 0 or 1
 
-
-//        Animal randomAnimal;
-//
-//        if(rNum == 0) {
-//            randomAnimal = new Dog();
-//        } else {
-//            randomAnimal = new Cat();
-//        }
-
         if (rNum == 0) {
-            Demo.animal1 = new Dog();
+            Demo.screenAnimal = new Dog();
             System.out.println("Dog created");
         } else {
-            Demo.animal1 = new Cat();
+            Demo.screenAnimal = new Cat();
             System.out.println("Cat created");
         }
 
@@ -69,13 +68,31 @@ public class Demo {
 
 
     public static void onLeftSwipe() {
-        Demo.animal1.moveLeft();
+        // Approach #1
+//        if(Demo.rNum == 0) {
+//            Demo.screenDog.moveLeft();
+//        } else {
+//            Demo.screenCat.moveLeft();
+//        }
+
+
+        // Approach #2
+        Demo.screenAnimal.moveLeft();
     }
 
     public static void onDoubleTap() {
+        // Approach #1
+//        if(Demo.rNum == 0) {
+//            Demo.screenDog.doFavouriteThing();
+//        } else {
+//            Demo.screenCat.doFavouriteThing();
+//        }
+
+
+        // Approach #2
         // variable's datatype is Animal
         // Objects datatype is either Dog or Cat. Pakka pata chalega run time pe.
-        Demo.animal1.doFavouriteThing();
+        Demo.screenAnimal.doFavouriteThing();
     }
 }
 

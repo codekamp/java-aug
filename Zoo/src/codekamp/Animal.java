@@ -9,6 +9,5 @@ public class Animal {
     }
 
     public void doFavouriteThing() {
-
     }
 }
