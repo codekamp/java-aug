@@ -94,6 +94,12 @@ public class Demo {
         // Objects datatype is either Dog or Cat. Pakka pata chalega run time pe.
         Demo.screenAnimal.doFavouriteThing();
     }
+
+
+
+    public void addActionListner(Object a) {
+
+    }
 }
 
 
