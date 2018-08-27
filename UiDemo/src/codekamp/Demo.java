@@ -64,6 +64,8 @@ public class Demo implements ActionListener {
         loginWindow.add(mainPanel);
 
         loginWindow.setVisible(true);
+
+
     }
 
     private static void login() {
@@ -82,5 +84,15 @@ public class Demo implements ActionListener {
     @Override
     public String toString() {
         return "Demo named: " + this.name + ", age: " + this.age;
+    }
+
+    @Override
+    public void actionPerformed(String s) {
+
+    }
+
+    @Override
+    public int hello() {
+        return 0;
     }
 }
