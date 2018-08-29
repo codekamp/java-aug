@@ -10,43 +10,63 @@ import java.awt.event.ActionListener;
  */
 public class Demo implements ActionListener {
 
-    private static JLabel l;
-    private static JButton changeColorButton;
-    private static JButton newWindowButton;
+    private JLabel l;
+    private JButton changeColorButton;
+    private JButton newWindowButton;
+
+    private Demo[] children = new Demo[10];
+    private int childrenCount = 0;
 
     public static void main(String[] args) {
+        Demo.createWindow();
+    }
+
+    // let's say newWindowButton of second JFrame was called
+    // e.getSource() will be newWindowButton of second JFrame which is
+    // ... stored in newWindowButton variable of second object of Demo.
+    // 'this' will be second object of Demo
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        if(e.getSource() == this.changeColorButton) {
+            if(this.l.getForeground() == Color.red) {
+                this.l.setForeground(Color.black);
+            } else {
+                this.l.setForeground(Color.red);
+            }
+        } else if(e.getSource() == this.newWindowButton) {
+            Demo d = Demo.createWindow();
+
+            this.children[childrenCount] = d;
+            this.childrenCount++;
+        }
+    }
+
+    private static Demo createWindow() {
         JFrame f = new JFrame();
         f.setSize(400, 400);
 
         JPanel p = new JPanel();
 
-        Demo.l = new JLabel();
-        Demo.l.setText("Hello World!");
-
-        Demo.changeColorButton = new JButton();
-        Demo.changeColorButton.setText("Change Color");
 
         Demo d = new Demo();
-        Demo.changeColorButton.addActionListener(d);
+        d.l = new JLabel();
+        d.l.setText("Hello World!");
 
-        Demo.newWindowButton = new JButton();
-        Demo.newWindowButton.setText("new window");
-        Demo.newWindowButton.addActionListener(d);
+        d.changeColorButton = new JButton();
+        d.changeColorButton.setText("Change Color");
 
-        p.add(Demo.l);
-        p.add(Demo.changeColorButton);
-        p.add(Demo.newWindowButton);
+        d.changeColorButton.addActionListener(d);
+
+        d.newWindowButton = new JButton();
+        d.newWindowButton.setText("new window");
+        d.newWindowButton.addActionListener(d);
+
+        p.add(d.l);
+        p.add(d.changeColorButton);
+        p.add(d.newWindowButton);
 
         f.add(p);
         f.setVisible(true);
-    }
-
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        if(e.getSource() == Demo.changeColorButton) {
-            Demo.l.setForeground(Color.red);
-        } else {
-            System.out.println("New window button clicked");
-        }
+        return d;
     }
 }
