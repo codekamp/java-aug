@@ -35,8 +35,6 @@ package codekamp;
 // 'super' is the only variable for which datatype of object doesn't matter
 // ...even at run time.
 
-import javax.sound.midi.Soundbank;
-
 public class Student {
     public String name;
     public int age;
