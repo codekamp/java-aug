@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/codekamp/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56857854">
+            <state vertical-scroll-proportion="0.0">
               <caret line="19" column="16" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="16" />
               <folding />
             </state>
@@ -38,7 +38,64 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="415" column="21" selection-start-line="415" selection-start-column="21" selection-end-line="415" selection-end-column="21" />
-              <folding />
+              <folding>
+                <element signature="e#0#193321#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#9097#9098#0" expanded="false" />
+                <element signature="e#9159#9160#0" expanded="false" />
+                <element signature="e#9932#9933#0" expanded="false" />
+                <element signature="e#9979#9980#0" expanded="false" />
+                <element signature="e#10317#10318#0" expanded="false" />
+                <element signature="e#10357#10358#0" expanded="false" />
+                <element signature="e#12401#12402#0" expanded="false" />
+                <element signature="e#12454#12455#0" expanded="false" />
+                <element signature="e#13097#13098#0" expanded="false" />
+                <element signature="e#13128#13129#0" expanded="false" />
+                <element signature="e#37566#37567#0" expanded="false" />
+                <element signature="e#37612#37613#0" expanded="false" />
+                <element signature="e#38925#38926#0" expanded="false" />
+                <element signature="e#38973#38974#0" expanded="false" />
+                <element signature="e#57240#57241#0" expanded="false" />
+                <element signature="e#57272#57273#0" expanded="false" />
+                <element signature="e#58032#58033#0" expanded="false" />
+                <element signature="e#58056#58057#0" expanded="false" />
+                <element signature="e#59867#59868#0" expanded="false" />
+                <element signature="e#59895#59896#0" expanded="false" />
+                <element signature="e#68128#68129#0" expanded="false" />
+                <element signature="e#68166#68167#0" expanded="false" />
+                <element signature="e#70048#70049#0" expanded="false" />
+                <element signature="e#70084#70085#0" expanded="false" />
+                <element signature="e#81680#81681#0" expanded="false" />
+                <element signature="e#81740#81741#0" expanded="false" />
+                <element signature="e#87768#87769#0" expanded="false" />
+                <element signature="e#87810#87811#0" expanded="false" />
+                <element signature="e#97160#97161#0" expanded="false" />
+                <element signature="e#97195#97196#0" expanded="false" />
+                <element signature="e#98619#98620#0" expanded="false" />
+                <element signature="e#98666#98667#0" expanded="false" />
+                <element signature="e#100158#100159#0" expanded="false" />
+                <element signature="e#100231#100232#0" expanded="false" />
+                <element signature="e#101852#101853#0" expanded="false" />
+                <element signature="e#101902#101903#0" expanded="false" />
+                <element signature="e#105678#105679#0" expanded="false" />
+                <element signature="e#105726#105727#0" expanded="false" />
+                <element signature="e#132453#132454#0" expanded="false" />
+                <element signature="e#132506#132507#0" expanded="false" />
+                <element signature="e#134941#134942#0" expanded="false" />
+                <element signature="e#134978#134979#0" expanded="false" />
+                <element signature="e#136737#136738#0" expanded="false" />
+                <element signature="e#136788#136789#0" expanded="false" />
+                <element signature="e#138127#138128#0" expanded="false" />
+                <element signature="e#138154#138155#0" expanded="false" />
+                <element signature="e#149781#149782#0" expanded="false" />
+                <element signature="e#149855#149856#0" expanded="false" />
+                <element signature="e#150134#150135#0" expanded="false" />
+                <element signature="e#150201#150202#0" expanded="false" />
+                <element signature="e#150722#150723#0" expanded="false" />
+                <element signature="e#150786#150787#0" expanded="false" />
+                <element signature="e#171795#171796#0" expanded="false" />
+                <element signature="e#171830#171831#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,7 +104,67 @@
         <entry file="file://$PROJECT_DIR$/src/codekamp/GamePanel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+              <caret line="48" column="45" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1052#1053#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1341#1342#0" expanded="true" />
+                <element signature="e#1403#1404#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StageOneScreen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/codekamp/screens/StageOneScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Element.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/codekamp/elements/Element.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Block.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/codekamp/elements/Block.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Screen.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/codekamp/screens/Screen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WelcomeScreen.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/codekamp/screens/WelcomeScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5962617">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,13 +176,13 @@
         <entry file="file://$PROJECT_DIR$/src/codekamp/Resources.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,9 +198,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/codekamp/Game.java" />
+        <option value="$PROJECT_DIR$/src/codekamp/screens/WecomeScreen.java" />
         <option value="$PROJECT_DIR$/src/codekamp/Resources.java" />
         <option value="$PROJECT_DIR$/src/codekamp/GamePanel.java" />
-        <option value="$PROJECT_DIR$/src/codekamp/Game.java" />
+        <option value="$PROJECT_DIR$/src/codekamp/elements/Element.java" />
+        <option value="$PROJECT_DIR$/src/codekamp/elements/Block.java" />
+        <option value="$PROJECT_DIR$/src/codekamp/screens/StageOneScreen.java" />
+        <option value="$PROJECT_DIR$/src/codekamp/screens/Screen.java" />
+        <option value="$PROJECT_DIR$/src/codekamp/screens/WelcomeScreen.java" />
       </list>
     </option>
   </component>
@@ -95,8 +218,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="width" value="1024" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -121,6 +244,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -157,9 +281,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameThrRightWay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameThrRightWay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codekamp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="screens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameThrRightWay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameThrRightWay" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codekamp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
@@ -171,12 +338,15 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/codekamp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="codekamp.elements" />
+      <recent name="codekamp.screens" />
       <recent name="codekamp" />
     </key>
   </component>
@@ -436,6 +606,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
@@ -460,12 +636,13 @@
       <created>1538140304885</created>
       <option name="number" value="Default" />
       <updated>1538140304885</updated>
-      <workItem from="1538140312670" duration="3018000" />
+      <workItem from="1538140312670" duration="3057000" />
+      <workItem from="1538396894956" duration="5635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3018000" />
+    <option name="totallyTimeSpent" value="8692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -477,33 +654,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1024" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24949084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19340974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3808554" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -518,24 +695,75 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/awt/Container.java">
+    <entry file="file://$PROJECT_DIR$/src/codekamp/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="415" column="21" selection-start-line="415" selection-start-column="21" selection-end-line="415" selection-end-column="21" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/codekamp/Resources.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/awt/Container.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <caret line="415" column="21" selection-start-line="415" selection-start-column="21" selection-end-line="415" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#0#193321#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#9097#9098#0" expanded="false" />
+            <element signature="e#9159#9160#0" expanded="false" />
+            <element signature="e#9932#9933#0" expanded="false" />
+            <element signature="e#9979#9980#0" expanded="false" />
+            <element signature="e#10317#10318#0" expanded="false" />
+            <element signature="e#10357#10358#0" expanded="false" />
+            <element signature="e#12401#12402#0" expanded="false" />
+            <element signature="e#12454#12455#0" expanded="false" />
+            <element signature="e#13097#13098#0" expanded="false" />
+            <element signature="e#13128#13129#0" expanded="false" />
+            <element signature="e#37566#37567#0" expanded="false" />
+            <element signature="e#37612#37613#0" expanded="false" />
+            <element signature="e#38925#38926#0" expanded="false" />
+            <element signature="e#38973#38974#0" expanded="false" />
+            <element signature="e#57240#57241#0" expanded="false" />
+            <element signature="e#57272#57273#0" expanded="false" />
+            <element signature="e#58032#58033#0" expanded="false" />
+            <element signature="e#58056#58057#0" expanded="false" />
+            <element signature="e#59867#59868#0" expanded="false" />
+            <element signature="e#59895#59896#0" expanded="false" />
+            <element signature="e#68128#68129#0" expanded="false" />
+            <element signature="e#68166#68167#0" expanded="false" />
+            <element signature="e#70048#70049#0" expanded="false" />
+            <element signature="e#70084#70085#0" expanded="false" />
+            <element signature="e#81680#81681#0" expanded="false" />
+            <element signature="e#81740#81741#0" expanded="false" />
+            <element signature="e#87768#87769#0" expanded="false" />
+            <element signature="e#87810#87811#0" expanded="false" />
+            <element signature="e#97160#97161#0" expanded="false" />
+            <element signature="e#97195#97196#0" expanded="false" />
+            <element signature="e#98619#98620#0" expanded="false" />
+            <element signature="e#98666#98667#0" expanded="false" />
+            <element signature="e#100158#100159#0" expanded="false" />
+            <element signature="e#100231#100232#0" expanded="false" />
+            <element signature="e#101852#101853#0" expanded="false" />
+            <element signature="e#101902#101903#0" expanded="false" />
+            <element signature="e#105678#105679#0" expanded="false" />
+            <element signature="e#105726#105727#0" expanded="false" />
+            <element signature="e#132453#132454#0" expanded="false" />
+            <element signature="e#132506#132507#0" expanded="false" />
+            <element signature="e#134941#134942#0" expanded="false" />
+            <element signature="e#134978#134979#0" expanded="false" />
+            <element signature="e#136737#136738#0" expanded="false" />
+            <element signature="e#136788#136789#0" expanded="false" />
+            <element signature="e#138127#138128#0" expanded="false" />
+            <element signature="e#138154#138155#0" expanded="false" />
+            <element signature="e#149781#149782#0" expanded="false" />
+            <element signature="e#149855#149856#0" expanded="false" />
+            <element signature="e#150134#150135#0" expanded="false" />
+            <element signature="e#150201#150202#0" expanded="false" />
+            <element signature="e#150722#150723#0" expanded="false" />
+            <element signature="e#150786#150787#0" expanded="false" />
+            <element signature="e#171795#171796#0" expanded="false" />
+            <element signature="e#171830#171831#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -546,15 +774,180 @@
           <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codekamp/Resources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="415" column="21" selection-start-line="415" selection-start-column="21" selection-end-line="415" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#193321#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#9097#9098#0" expanded="false" />
+            <element signature="e#9159#9160#0" expanded="false" />
+            <element signature="e#9932#9933#0" expanded="false" />
+            <element signature="e#9979#9980#0" expanded="false" />
+            <element signature="e#10317#10318#0" expanded="false" />
+            <element signature="e#10357#10358#0" expanded="false" />
+            <element signature="e#12401#12402#0" expanded="false" />
+            <element signature="e#12454#12455#0" expanded="false" />
+            <element signature="e#13097#13098#0" expanded="false" />
+            <element signature="e#13128#13129#0" expanded="false" />
+            <element signature="e#37566#37567#0" expanded="false" />
+            <element signature="e#37612#37613#0" expanded="false" />
+            <element signature="e#38925#38926#0" expanded="false" />
+            <element signature="e#38973#38974#0" expanded="false" />
+            <element signature="e#57240#57241#0" expanded="false" />
+            <element signature="e#57272#57273#0" expanded="false" />
+            <element signature="e#58032#58033#0" expanded="false" />
+            <element signature="e#58056#58057#0" expanded="false" />
+            <element signature="e#59867#59868#0" expanded="false" />
+            <element signature="e#59895#59896#0" expanded="false" />
+            <element signature="e#68128#68129#0" expanded="false" />
+            <element signature="e#68166#68167#0" expanded="false" />
+            <element signature="e#70048#70049#0" expanded="false" />
+            <element signature="e#70084#70085#0" expanded="false" />
+            <element signature="e#81680#81681#0" expanded="false" />
+            <element signature="e#81740#81741#0" expanded="false" />
+            <element signature="e#87768#87769#0" expanded="false" />
+            <element signature="e#87810#87811#0" expanded="false" />
+            <element signature="e#97160#97161#0" expanded="false" />
+            <element signature="e#97195#97196#0" expanded="false" />
+            <element signature="e#98619#98620#0" expanded="false" />
+            <element signature="e#98666#98667#0" expanded="false" />
+            <element signature="e#100158#100159#0" expanded="false" />
+            <element signature="e#100231#100232#0" expanded="false" />
+            <element signature="e#101852#101853#0" expanded="false" />
+            <element signature="e#101902#101903#0" expanded="false" />
+            <element signature="e#105678#105679#0" expanded="false" />
+            <element signature="e#105726#105727#0" expanded="false" />
+            <element signature="e#132453#132454#0" expanded="false" />
+            <element signature="e#132506#132507#0" expanded="false" />
+            <element signature="e#134941#134942#0" expanded="false" />
+            <element signature="e#134978#134979#0" expanded="false" />
+            <element signature="e#136737#136738#0" expanded="false" />
+            <element signature="e#136788#136789#0" expanded="false" />
+            <element signature="e#138127#138128#0" expanded="false" />
+            <element signature="e#138154#138155#0" expanded="false" />
+            <element signature="e#149781#149782#0" expanded="false" />
+            <element signature="e#149855#149856#0" expanded="false" />
+            <element signature="e#150134#150135#0" expanded="false" />
+            <element signature="e#150201#150202#0" expanded="false" />
+            <element signature="e#150722#150723#0" expanded="false" />
+            <element signature="e#150786#150787#0" expanded="false" />
+            <element signature="e#171795#171796#0" expanded="false" />
+            <element signature="e#171830#171831#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/awt/Graphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1567165">
+          <caret line="1156" column="25" selection-start-line="1156" selection-start-column="25" selection-end-line="1156" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/codekamp/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56857854">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="16" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codekamp/GamePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codekamp/Resources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codekamp/elements/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codekamp/elements/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codekamp/screens/StageOneScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codekamp/screens/Screen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/codekamp/screens/WelcomeScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5962617">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

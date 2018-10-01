@@ -8,6 +8,7 @@ import java.io.IOException;
 abstract public class Resources {
     private static Image grassImage;
     private static Image blockImage;
+    private static Font titleFont;
 
     public static void load() {
         try {
@@ -16,6 +17,8 @@ abstract public class Resources {
         } catch (IOException e) {
             System.out.println("Image loading failed with error: " + e.getMessage());
         }
+
+        titleFont = new Font("Comic Sans MS", Font.BOLD, 30);
     }
 
     public static Image getGrassImage() {
@@ -24,5 +27,9 @@ abstract public class Resources {
 
     public static Image getBlockImage() {
         return blockImage;
+    }
+
+    public static Font getTitleFont() {
+        return titleFont;
     }
 }

@@ -1,5 +1,8 @@
 package codekamp;
 
+import codekamp.screens.Screen;
+import codekamp.screens.WelcomeScreen;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -9,6 +12,9 @@ import java.awt.event.MouseListener;
 
 
 public class GamePanel extends JPanel implements KeyListener, MouseListener, Runnable {
+
+    public static Screen currentScreen;
+
     public GamePanel() {
         super();
 
@@ -26,6 +32,8 @@ public class GamePanel extends JPanel implements KeyListener, MouseListener, Run
         this.requestFocus();
         Resources.load();
 
+        currentScreen = new WelcomeScreen();
+
         Thread t = new Thread(this);
         t.setName("loop");
         t.start();
@@ -33,46 +41,47 @@ public class GamePanel extends JPanel implements KeyListener, MouseListener, Run
 
     @Override
     public void keyTyped(KeyEvent e) {
-
+        // Do nothing
     }
 
     @Override
     public void keyPressed(KeyEvent e) {
-
+        currentScreen.onKeyPress(e.getKeyCode());
     }
 
     @Override
     public void keyReleased(KeyEvent e) {
-
+        // Do nothing
     }
 
     @Override
     public void mouseClicked(MouseEvent e) {
-
+        // Do nothing
     }
 
     @Override
     public void mousePressed(MouseEvent e) {
-
+        currentScreen.onMousePress(e.getX(), e.getY());
     }
 
     @Override
     public void mouseReleased(MouseEvent e) {
-
+        // Do nothing
     }
 
     @Override
     public void mouseEntered(MouseEvent e) {
-
+        // Do nothing
     }
 
     @Override
     public void mouseExited(MouseEvent e) {
-
+        // Do nothing
     }
 
     @Override
     public void run() {
+
 
         while (true) {
             try {
@@ -82,7 +91,10 @@ public class GamePanel extends JPanel implements KeyListener, MouseListener, Run
             }
 
             Graphics g = this.getGraphics();
-            g.drawImage(Resources.getGrassImage(), 0, 405, null);
+
+            currentScreen.update();
+            currentScreen.draw(g);
+
             g.dispose();
         }
     }
