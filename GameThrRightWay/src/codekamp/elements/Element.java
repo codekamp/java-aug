@@ -29,4 +29,14 @@ abstract public class Element {
         yVel += yAcc;
         xVel += xAcc;
     }
+
+    public boolean isCollidingWith(Element other) {
+        boolean xOverlap = (x > other.x && x < other.x + other.width)
+                || (other.x > x && other.x < x + width);
+
+        boolean yOverlap = (y > other.y && y < other.y + other.height)
+                || (other.y > y && other.y < y + height);
+
+        return visible && other.visible && xOverlap && yOverlap;
+    }
 }
