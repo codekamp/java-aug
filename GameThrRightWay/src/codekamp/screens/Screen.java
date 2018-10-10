@@ -8,7 +8,7 @@ import java.util.List;
 
 abstract public class Screen {
 
-    public List<Element> elements = new ArrayList<>();
+    protected List<Element> elements = new ArrayList<>();
 
     public void update() {
         for (Element e : this.elements) {

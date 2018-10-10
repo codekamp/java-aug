@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class ColorFrame extends JFrame implements ActionListener {
+public class ColorFrame extends JFrame {
     private JButton changeColorButton;
     private JButton newWindowButton;
     private JLabel label;
@@ -23,12 +23,22 @@ public class ColorFrame extends JFrame implements ActionListener {
         this.changeColorButton = new JButton();
         this.changeColorButton.setText("Change Color");
 
-        this.changeColorButton.addActionListener(this);
+        this.changeColorButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ColorFrame.this.changeColor();
+            }
+        });
 
         // this is new object of color frame
         this.newWindowButton = new JButton();
         this.newWindowButton.setText("new window");
-        this.newWindowButton.addActionListener(this);
+        this.newWindowButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new ColorFrame();
+            }
+        });
 
         p.add(this.label);
         p.add(this.changeColorButton);
@@ -38,22 +48,11 @@ public class ColorFrame extends JFrame implements ActionListener {
         this.setVisible(true);
     }
 
-
-    // 'this' is the ColorFrame object on which action performed was called
-    // ... which means it the ColorFrame object jiska button click hua hai
-
-
-    // e.getSource() is the button that was clicked
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        if(e.getSource() == this.changeColorButton) {
-            if(this.label.getForeground() == Color.red) {
-                this.label.setForeground(Color.black);
-            } else {
-                this.label.setForeground(Color.red);
-            }
-        } else if(e.getSource() == this.newWindowButton) {
-            new ColorFrame();
+    private void changeColor() {
+        if (this.label.getForeground() == Color.red) {
+            this.label.setForeground(Color.black);
+        } else {
+            this.label.setForeground(Color.red);
         }
     }
 }
